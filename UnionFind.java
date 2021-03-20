@@ -1,5 +1,5 @@
 //O(logN)
-class UnionFind {
+public class UnionFind {
     static int[] par;
     
     public static int root(int x){
