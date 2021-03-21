@@ -55,6 +55,6 @@ public class Kruskal {
             }
         }
         System.out.println(ans);
-        
+        sc.close();
     }
 }
