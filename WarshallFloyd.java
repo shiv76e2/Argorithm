@@ -1,7 +1,7 @@
 import java.util.*;
 
 //O(V^3)
-public class WarshallFloyd {
+class WarshallFloyd {
 	public static class WF{
 		long[][] d;
 		long INF;

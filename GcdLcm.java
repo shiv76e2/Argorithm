@@ -1,6 +1,6 @@
-public class GcdLcm{
+class GcdLcm{
     //最大公約数
-    public static int gcd(int a,int b){
+    static int gcd(int a,int b){
        int A = Math.max(a,b);
        int B = Math.min(a,b);
 
@@ -11,7 +11,7 @@ public class GcdLcm{
        }
    }
    //最小高倍数
-   public static int lcm(int a,int b){
+   static int lcm(int a,int b){
         return (a * b) / gcd(a,b);
    }
 }

@@ -4,7 +4,7 @@ class Prime {
     static List<Integer> list = new ArrayList<>(); //素因数分解した値を格納するリスト
     
     //素数判定
-    public static boolean isPrime(int n){
+    static boolean isPrime(int n){
         if(n < 2)   return false;
 		
         if(n == 2) return true;
@@ -17,7 +17,7 @@ class Prime {
     }
 
     //素因数分解
-    public static void factorization(int n){
+    static void factorization(int n){
         if(n < 2){
             if(list.isEmpty()){
                 list.add(n);
